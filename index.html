@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess Number</title>
+</head>
+<body>
+    <nav style="text-align: center; background-color: black; color: white; width: 99.9%; height: auto; font-size:50px ; ">
+        Home
+    </nav>
+    <div class="wrapper" style="align-self: center; margin-left: 45%; margin-top: 4%;">
+        <h1  >Number Guessing</h1>
+        <p style="font-size: 22px;">Try and guess number between 0 to 9 </p>
+        <p style="font-size: 22px;">Your have 10 attemps to guess right number  </p>
+        <br>
+        <form>
+            <h1>Guess a Number</h1>
+            <input type="text" id="guessfield" class="guessfield"/> <br>
+            <input type="submit" name="submit" id="submit" value="submit" class="submt">
+        </form>
+        <div class="resultparas">
+                <p>previous guesses : <span class="guesses"></span> </p>
+                <p>Attepms remaining : <span class="remaining"></span> </p>
+                <p class="bigSmaill"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
